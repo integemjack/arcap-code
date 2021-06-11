@@ -1,5 +1,5 @@
 !define PRODUCT_NAME "Integem iPlayer"
-!define PRODUCT_VERSION "3.8.178"
+!define PRODUCT_VERSION "3.8.179"
 !define PRODUCT_PUBLISHER "Integem, Inc."
 !define PRODUCT_WEB_SITE "http://www.integem.com"
 !define PRODUCT_DIR_REGKEY "Software\Microsoft\Windows\CurrentVersion\App Paths\arcap.exe"

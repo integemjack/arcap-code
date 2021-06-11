@@ -440,7 +440,7 @@ module.exports = function(server) {
 		socket.on("videoRecord", (data, path) => {
 			logger.info(`Save video stream "${path}" ->`, data.length);
 			if (path !== "") {
-				let stream = fs.createWriteStream(path, {flags: 'r+'});
+				let stream = fs.createWriteStream(path, { flags: "r+" });
 				stream.write(data, err => {
 					if (err) {
 						return logger.error(err);

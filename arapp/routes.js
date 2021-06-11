@@ -7,6 +7,7 @@ const config = require("../libs/config").get();
 const router = express.Router();
 const fsext = require("fs-extra");
 const request = require("request");
+const axios = require("axios");
 const ini = require("ini");
 
 router.get("/", (req, res, next) => {
@@ -21,7 +22,7 @@ router.get("/ARprojectName", (req, res, next) => {
 	res.send("success");
 });
 
-router.get("/ErrorMessage", (req, res, next) => {
+router.get("/ErrorMessage", async (req, res, next) => {
 	let ario = req.app.get("ario");
 	// pass stage infomation to socketio/ario module to take next action
 	// ario.emitStage(req.query);
@@ -36,8 +37,8 @@ router.get("/ErrorMessage", (req, res, next) => {
 	let args = Object.keys(querys);
 	let parms = args.map(a => `${a}=${querys[a]}`);
 	console.log(`parms ->`, parms);
-	request(`http://127.0.0.1:3000/error?${parms.join("&")}`);
-	ario.emitStop();
+	await axios(`http://127.0.0.1:3000/error?${parms.join("&")}`);
+	// ario.emitStop();
 	let log = require("child_process").execSync(`tasklist /M integem*`);
 	let list = log.toString().split(/\r|\n|\r\n/g);
 
@@ -49,10 +50,11 @@ router.get("/ErrorMessage", (req, res, next) => {
 		});
 	console.log(lists);
 
-	lists.forEach(l => {
+	for (let l of lists) {
 		let _log = require("child_process").execSync(`taskkill /T /F /PID ${l[1]}`);
 		console.log(_log.toString());
-	});
+	}
+
 	if (fsext.existsSync(path.join(req.query.ReportBugProject, "stageconfig.txt"))) {
 		fsext.copyFileSync(path.join(req.query.ReportBugProject, "stageconfig.txt"), stageconf);
 
