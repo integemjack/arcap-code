@@ -1,0 +1,650 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+div#app {
+    height: 100%;
+    all: initial;
+}
+
+div.login {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 200px 50px 50px 50px;
+}
+
+div.login div.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 100;
+}
+
+div.login div.logo img {
+    width: 200px;
+    display: block;
+}
+
+div.login div.logo div.btns {
+    text-align: center;
+}
+
+div.login div.logo div.btns a, div.login div.logo div.btns div {
+    margin: 5px;
+}
+
+div.login div.logo div.btns a img, div.login div.logo div.btns div img {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+
+div.login div.admin {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    text-align: right;
+}
+
+div.login div.admin img {
+    width: 40px;
+    height: 40px;
+}
+
+div.login div.admin div {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+div.login div.admin div input {
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #CCC;
+    height: 30px;
+    line-height: 30px;
+    padding: 5px 33px 5px 5px;
+    font-size: 1em;
+}
+
+div.login div.admin div button, div.login div.admin div img.i {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    background: #FFF;
+    border: none;
+}
+
+div.login div.admin div button img {
+    width: 26px;
+    height: 26px;
+    vertical-align: bottom;
+    padding: 2px;
+}
+
+div.login div.admin div.sort {
+    cursor: pointer;
+}
+
+div.login div.admin div.sort > img {
+    width: 40px;
+    height: 40px;
+}
+
+div.login div.admin div.sort h1 {
+    font-size: 12px;
+    text-align: right;
+    line-height: 30px;
+    padding: 0 25px 0 10px;
+    font-weight: normal;
+}
+
+div.login div.admin div.sort h1 img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 5px;
+    right: 0;
+    transform:rotate(91deg);
+    -ms-transform:rotate(91deg); 	/* IE 9 */
+    -moz-transform:rotate(91deg); 	/* Firefox */
+    -webkit-transform:rotate(91deg); /* Safari 和 Chrome */
+    -o-transform:rotate(91deg); 	/* Opera */
+}
+
+div.login div.admin div.sort h1 img.on {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 5px;
+    right: 0;
+    transform:rotate(0deg);
+    -ms-transform:rotate(0deg); 	/* IE 9 */
+    -moz-transform:rotate(0deg); 	/* Firefox */
+    -webkit-transform:rotate(0deg); /* Safari 和 Chrome */
+    -o-transform:rotate(0deg); 	/* Opera */
+}
+
+div.login div.admin div.sort ul {
+    background: #fff;
+    border: 1px solid #CCC;
+    z-index: 2;
+    position: relative;
+    border-radius: 3px;
+    padding-bottom: 5px;
+}
+
+div.login div.admin div.sort ul h1 {
+    text-align: left;
+    border-bottom: 1px solid #CCC;
+    margin-bottom: 5px;
+}
+
+div.login div.admin div.sort ul li {
+    padding: 5px;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+div.login div.admin div.sort ul li input {
+    margin-right: 5px;
+    height: auto;
+    line-height: normal;
+}
+
+div.login div.light {
+    position: absolute;
+    top: 20px;
+    right: 80px;
+}
+
+div.login div.light img {
+    width: 40px;
+    height: 40px;
+}
+
+div.login div.volume {
+    position: absolute;
+    top: 20px;
+    right: 130px;
+}
+
+div.login div.volume img {
+    width: 40px;
+    height: 40px;
+}
+
+div.login ul {
+    max-width: 500px;
+    margin: auto;
+}
+
+div.login ul li {
+    text-align: center;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+div.login ul li h1 {
+    color: #4898F8;
+    position: relative;
+    height: 80px;
+}
+
+div.login ul li h1 img {
+    display: block;
+    margin: auto;
+    width: 60%;
+    position: absolute;
+    top: -50px;
+    left: 0;
+    right: 0;
+}
+
+div.login > ul > li > label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 58px;
+    line-height: 58px;
+    color: #999;
+    font-size: 24px;
+    font-family: "Baloo";
+}
+
+div.login ul li input {
+    font-size: 24px;
+    background: none;
+    width: 100%;
+    padding: 10px 0 10px 80px;
+    border: none;
+    border-bottom: 3px solid #CCC;
+    outline: none;
+    color: #333;
+    font-family: "Baloo";
+}
+
+div#admin ul li input {
+    padding-left: 120px;
+}
+
+div.login ul li input[type='checkbox'] {
+    width: auto;
+}
+
+div.login ul li.button {
+    padding-top: 60px;
+}
+
+div.login ul li.button button {
+    display: inline-block;
+    background: rgb(15, 117, 189);
+    border: none;
+    width: 100%;
+    height: 60px;
+    color: #FFF;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+div.login ul li.button button:disabled {
+    background: #CCC;
+}
+
+div.login ul li button img {
+    position: relative;
+    display: block;
+    height: 16px;
+}
+
+div.login ul li button.run img {
+    -webkit-animation: run 2s infinite linear;
+    animation: run 2s infinite linear;
+}
+
+div.login ul li button#setting,
+div.login ul li button#test {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+}
+
+div.login ul li button#scan {
+    background: #fff;
+    border: 2px solid rgb(15, 117, 189);
+    color: rgb(15, 117, 189);
+}
+
+div.login ul li button#lastUser {
+    background: #fff;
+    border: 2px solid rgb(15, 117, 189);
+    color: rgb(15, 117, 189);
+}
+
+div#confirm label#agree-label {
+    font-size: 18px;
+    color: #999;
+    font-family: "Baloo";
+}
+
+div#confirm span#warn-label {
+    font-size: 16px;
+    color: #aa0;
+    font-family: "Baloo";
+}
+
+div.main {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 350px 50px 50px 50px;
+}
+
+div.main > div.content {
+    margin: auto;
+    max-width: 500px;
+    margin-bottom: 10px;
+}
+
+div.main > div.content > img.qrcode {
+    width: 100%;
+}
+
+div.main div.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+div.main div.logo img {
+    width: 200px;
+}
+
+div.main div.admin {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+div.main div.admin img {
+    width: 40px;
+    height: 40px;
+}
+
+div.main button {
+    display: inline-block;
+    background: rgb(15, 117, 189);
+    border: none;
+    width: 100%;
+    height: 60px;
+    color: #FFF;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+div.main button:disabled {
+    background: #CCC;
+}
+
+div.main div.info {
+    display: inline-block;
+    border: none;
+    width: 100%;
+    height: 60px;
+    color: #CCC;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Comic Sans MS";
+}
+
+div.main div.light {
+    position: absolute;
+    top: 20px;
+    right: 80px;
+}
+
+div.main div.light img {
+    width: 40px;
+    height: 40px;
+}
+
+div.main div.volume {
+    position: absolute;
+    top: 20px;
+    right: 130px;
+}
+
+div.main div.volume img {
+    width: 40px;
+    height: 40px;
+}
+
+div.setting {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+div.setting div.head {
+    border-bottom: 3px solid rgb(15, 117, 189);
+    height: 43px;
+    line-height: 40px;
+}
+
+div.setting div.head a {
+    cursor: pointer;
+    padding: 0 10px;
+    margin-right: 10px;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    background: #FFF;
+    color: #333;
+    border: none;
+    outline: none;
+}
+
+div.setting div.head a.on {
+    font-size: 14px;
+    background: rgb(15, 117, 189);
+    color: #FFF;
+}
+
+div.setting div.content {
+    position: absolute;
+    top: 43px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+div.setting div.content div.content-main {
+    display: none;
+}
+
+div.setting div.content div.content-main div.mid {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 500px;
+    height: 60px;
+    margin: auto;
+    padding: 30px;
+}
+
+div.setting div.content div.content-main div.mid button {
+    display: inline-block;
+    background: rgb(15, 117, 189);
+    border: none;
+    width: 100%;
+    height: 60px;
+    color: #FFF;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+div.setting div.content div.content-main div.mid button:disabled {
+    background: #CCC;
+}
+
+div.setting div.content div.content-main.on {
+    display: block;
+}
+
+div.setting div.content ul.setting h2 {
+    font-size: 14px;
+    line-height: 30px;
+    padding-top: 20px;
+}
+
+div.setting div.content ul.setting hr {
+    margin-bottom: 10px;
+}
+
+div.setting div.content ul.setting li {
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+div.setting div.content ul.setting li label {
+    vertical-align: middle;
+    font-size: 14px;
+    color: #666;
+}
+
+div.setting div.content ul.setting li div.radio {
+    display: inline-block;
+    height: 30px;
+    width: 60px;
+    margin-left: 10px;
+    background: #CCC;
+    border-radius: 15px;
+    border: 2px #CCC solid;
+    vertical-align: middle;
+}
+
+div.setting div.content ul.setting li div.radio.on {
+    background: rgb(119, 172, 34);
+    border-color: rgb(119, 172, 34);
+}
+
+div.setting div.content ul.setting li div.radio span {
+    cursor: pointer;
+    font-size: 12px;
+    float: left;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 10px;
+    background: #FFF;
+    border-radius: 14px;
+}
+
+div.setting div.content ul.setting li div.radio.on span {
+    float: right;
+}
+
+div.setting div.content ul.setting li div.radio span::before {
+    content: 'off';
+}
+
+div.setting div.content ul.setting li div.radio.on span::before {
+    content: 'on';
+}
+
+div.setting div.content ul.setting li input,
+div.setting div.content ul.setting li select,
+div.setting div.content ul.setting li textarea {
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px #CCC solid;
+    outline: none;
+    resize: none;
+}
+
+div.setting div.content ul.setting li textarea {
+    height: 200px;
+}
+
+div.setting div.content ul.setting li .max {
+    display: block;
+    width: 100%;
+}
+
+div.setting div.content ul.setting li .min {
+    width: 200px;
+}
+
+div.setting div.content div.foot {
+    text-align: right;
+}
+
+div.setting div.content div.foot button {
+    background: #FFF;
+    border: 1px green solid;
+    color: green;
+    padding: 10px 20px;
+    border-radius: 3px;
+    outline: none;
+}
+
+div.setting div.content div.foot button.save {
+    background: green;
+    color: #FFF;
+}
+
+div#agreement div.content {
+    text-align: left;
+}
+
+div#agreement div.foot {
+    height: 60px;
+    line-height: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+div#agreement div.foot button {
+    margin: 5px;
+    padding: 5px 10px;
+    display: inline-block;
+    background: rgb(115, 165, 199);
+    border: none;
+    height: 30px;
+    color: #FFF;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+div#agreement div.foot button.ok {
+    background: rgb(15, 117, 189);
+}
+
+video#preview {
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    div.login div.logo {
+        width: 100px;
+    }
+
+    div.login div.logo img {
+        width: 100px;
+        display: block;
+    }
+
+    div.login div.admin {
+        width: 60%;
+        right: 20px;
+    }
+
+    div.login div.admin div {
+        margin-bottom: 5px;
+    }
+
+    div.login div.logo div.btns {
+        text-align: left;
+    }
+
+    div.login {
+        padding: 150px 10px 10px 10px;
+    }
+
+
+}

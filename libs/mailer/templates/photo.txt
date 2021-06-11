@@ -1,0 +1,15 @@
+Dear {name}
+
+I hope you have a great day!
+
+You look so awesome!
+
+Please click the link below to see your photos:
+https://myar.integem.com/token/{token}
+
+
+Sincerely,
+Jane
+---
+Jane lean
+<a href="http://www.integem.com">http://www.integem.com</a>

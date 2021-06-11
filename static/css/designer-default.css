@@ -1,0 +1,480 @@
+#topleftimg1 {
+    position: absolute;
+    height: 100px;
+    top: 50px;
+    left: 100px;
+    width: 100px;
+    background: rgba(0, 0, 0, .2);
+    border-radius: 50%;
+}
+
+#toprightimg1 {
+    position: absolute;
+    height: 100px;
+    top: 50px;
+    right: 100px;
+    width: 100px;
+    background: rgba(0, 0, 0, .2);
+    border-radius: 50%;
+}
+
+#bottomleftimg1 {
+    position: absolute;
+    height: 100px;
+    bottom: 50px;
+    left: 100px;
+    width: 100px;
+    background: rgba(0, 0, 0, .2);
+    border-radius: 50%;
+}
+
+#bottomrightimg1 {
+    position: absolute;
+    height: 100px;
+    bottom: 50px;
+    right: 100px;
+    width: 100px;
+    background: rgba(0, 0, 0, .2);
+    border-radius: 50%;
+}
+
+#toplefttext1-container {
+    position: absolute;
+    height: 100px;
+    line-height: 100px;
+    top: 50px;
+    left: 200px;
+    overflow: hidden;
+    /* background: rgba(0, 0, 0, .2);*/
+}
+
+#toprighttext1-container {
+    position: absolute;
+    height: 100px;
+    line-height: 100px;
+    top: 50px;
+    right: 200px;
+    overflow: hidden;
+    /*background: rgba(0, 0, 0, .2);*/
+}
+
+#bottomlefttext1-container {
+    position: absolute;
+    height: 100px;
+    line-height: 100px;
+    bottom: 50px;
+    left: 200px;
+    overflow: hidden;
+    /*background: rgba(0, 0, 0, .2);*/
+}
+
+#bottomrighttext1-container {
+    position: absolute;
+    height: 100px;
+    line-height: 100px;
+    bottom: 50px;
+    right: 200px;
+    overflow: hidden;
+    /*background: rgba(0, 0, 0, .2);*/
+}
+
+#toplefttext1,
+#toprighttext1,
+#bottomlefttext1,
+#bottomrighttext1 {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.5;
+    font-family: "Comic Sans MS", sans-serif;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-size: 26px;
+    color: white;
+    background: rgba(0, 0, 0, .2);
+}
+
+#topleftimg2 {
+    position: absolute;
+    height: 100px;
+    top: 150px;
+    left: 100px;
+    width: 100px;
+    background: rgba(0, 0, 0, .2);
+    border-radius: 50%;
+}
+
+#toprightimg2 {
+    position: absolute;
+    height: 100px;
+    top: 150px;
+    right: 100px;
+    width: 100px;
+    background: rgba(0, 0, 0, .2);
+    border-radius: 50%;
+}
+
+#bottomleftimg2 {
+    position: absolute;
+    height: 100px;
+    bottom: 150px;
+    left: 100px;
+    width: 100px;
+    background: rgba(0, 0, 0, .2);
+    border-radius: 50%;
+}
+
+#bottomrightimg2 {
+    position: absolute;
+    height: 100px;
+    bottom: 150px;
+    right: 100px;
+    width: 100px;
+    background: rgba(0, 0, 0, .2);
+    border-radius: 50%;
+}
+
+#toplefttext2-container {
+    position: absolute;
+    height: 100px;
+    line-height: 100px;
+    top: 150px;
+    left: 200px;
+    overflow: hidden;
+    /*background: rgba(0, 0, 0, .2);*/
+}
+
+#toprighttext2-container {
+    position: absolute;
+    height: 100px;
+    line-height: 100px;
+    top: 150px;
+    right: 200px;
+    overflow: hidden;
+    /* background: rgba(0, 0, 0, .2);*/
+}
+
+#bottomlefttext2-container {
+    position: absolute;
+    height: 100px;
+    line-height: 100px;
+    bottom: 150px;
+    left: 200px;
+    overflow: hidden;
+    /*background: rgba(0, 0, 0, .2);*/
+}
+
+#bottomrighttext2-container {
+    position: absolute;
+    height: 100px;
+    line-height: 100px;
+    bottom: 150px;
+    right: 200px;
+    overflow: hidden;
+    /*background: rgba(0, 0, 0, .2);*/
+}
+
+#toplefttext2,
+#toprighttext2,
+#bottomlefttext2,
+#bottomrighttext2 {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.5;
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: 26px;
+    color: white;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    background: rgba(0, 0, 0, .2);
+}
+
+#topleftimg3 {
+    position: absolute;
+    height: 100px;
+    top: 250px;
+    left: 100px;
+    width: 100px;
+    background: rgba(0, 0, 0, .2);
+    border-radius: 50%;
+}
+
+#toprightimg3 {
+    position: absolute;
+    height: 100px;
+    top: 250px;
+    right: 100px;
+    width: 100px;
+    background: rgba(0, 0, 0, .2);
+    border-radius: 50%;
+}
+
+#bottomleftimg3 {
+    position: absolute;
+    height: 100px;
+    bottom: 250px;
+    left: 100px;
+    width: 100px;
+    background: rgba(0, 0, 0, .2);
+    border-radius: 50%;
+}
+
+#bottomrightimg3 {
+    position: absolute;
+    height: 100px;
+    bottom: 250px;
+    right: 100px;
+    width: 100px;
+    background: rgba(0, 0, 0, .2);
+    border-radius: 50%;
+}
+
+#toplefttext3-container {
+    position: absolute;
+    height: 100px;
+    line-height: 100px;
+    top: 250px;
+    left: 200px;
+    overflow: hidden;
+    /* background: rgba(0, 0, 0, .2);*/
+}
+
+#toprighttext3-container {
+    position: absolute;
+    height: 100px;
+    line-height: 100px;
+    top: 250px;
+    right: 200px;
+    overflow: hidden;
+    /* background: rgba(0, 0, 0, .2);*/
+}
+
+#bottomlefttext3-container {
+    position: absolute;
+    height: 100px;
+    line-height: 100px;
+    bottom: 250px;
+    left: 200px;
+    overflow: hidden;
+    /*background: rgba(0, 0, 0, .2);*/
+}
+
+#bottomrighttext3-container {
+    position: absolute;
+    height: 100px;
+    line-height: 100px;
+    bottom: 250px;
+    right: 200px;
+    overflow: hidden;
+    /*background: rgba(0, 0, 0, .2);*/
+}
+
+#toplefttext3,
+#toprighttext3,
+#bottomlefttext3,
+#bottomrighttext3 {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.5;
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: 26px;
+    color: white;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    background: rgba(0, 0, 0, .2);
+}
+
+#topleftimg4 {
+    position: absolute;
+    height: 100px;
+    top: 350px;
+    left: 100px;
+    width: 100px;
+    background: rgba(0, 0, 0, .2);
+    border-radius: 50%;
+}
+
+#toprightimg4 {
+    position: absolute;
+    height: 100px;
+    top: 350px;
+    right: 100px;
+    width: 100px;
+    background: rgba(0, 0, 0, .2);
+    border-radius: 50%;
+}
+
+#bottomleftimg4 {
+    position: absolute;
+    height: 100px;
+    bottom: 350px;
+    left: 100px;
+    width: 100px;
+    background: rgba(0, 0, 0, .2);
+    border-radius: 50%;
+}
+
+#bottomrightimg4 {
+    position: absolute;
+    height: 100px;
+    bottom: 350px;
+    right: 100px;
+    width: 100px;
+    background: rgba(0, 0, 0, .2);
+    border-radius: 50%;
+}
+
+#toplefttext4-container {
+    position: absolute;
+    height: 100px;
+    line-height: 100px;
+    top: 350px;
+    left: 200px;
+    overflow: hidden;
+    /*background: rgba(0, 0, 0, .2);*/
+}
+
+#toprighttext4-container {
+    position: absolute;
+    height: 100px;
+    line-height: 100px;
+    top: 350px;
+    right: 200px;
+    overflow: hidden;
+    /*background: rgba(0, 0, 0, .2);*/
+}
+
+#bottomlefttext4-container {
+    position: absolute;
+    height: 100px;
+    line-height: 100px;
+    bottom: 350px;
+    left: 200px;
+    overflow: hidden;
+    /*background: rgba(0, 0, 0, .2);*/
+}
+
+#bottomrighttext4-container {
+    position: absolute;
+    height: 100px;
+    line-height: 100px;
+    bottom: 350px;
+    right: 200px;
+    overflow: hidden;
+    /*background: rgba(0, 0, 0, .2);*/
+}
+
+#toplefttext4,
+#toprighttext4,
+#bottomlefttext4,
+#bottomrighttext4 {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.5;
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: 26px;
+    padding-right: 1vw;
+    padding-right: 1vw;
+    color: white;
+    background: rgba(0, 0, 0, .2);
+}
+
+#centerimg1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: calc(50% - 100px / 2);
+    left: calc(50% - 100px / 2);
+    background: rgba(0, 0, 0, .2);
+    border-radius: 50%;
+}
+
+#centertext1-container {
+    position: absolute;
+    height: 100px;
+    line-height: 100px;
+    top: calc(50% - 100px / 2);
+    left: calc(50% - 100px / 2);
+    overflow: hidden;
+    background: rgba(0, 0, 0, .2);
+}
+
+#centertext1 {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: 36px;
+}
+
+
+/* fonts */
+
+@font-face {
+    font-family: 'arial-rounded';
+    src: url("./fonts/arial-rounded/unicode.arialr.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'avenir';
+    src: url("./fonts/avenir/AEH.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'calibri';
+    src: url("./fonts/calibri/Calibri.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'eb_garamond';
+    src: url("./fonts/EB_Garamond/EBGaramond-Regular.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futura';
+    src: url("./fonts/futura/futur.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'minion';
+    src: url("./fonts/minion/Minion Regular.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'myriad-web';
+    src: url("./fonts/myriad-web/MyriadWeb.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url("./fonts/roboto/Roboto-Regular.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pt-sans';
+    src: url("./fonts/PT_Sans/PT_Sans-Web-Regular.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'raleway';
+    src: url("./fonts/raleway/Raleway-Regular.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}

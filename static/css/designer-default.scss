@@ -1,0 +1,165 @@
+$imgWidth: 100px;
+$imgHeight: 100px;
+$marginLeft: 100px;
+$marginTop: 50px;
+@for $i from 1 through 4 {
+    #topleftimg#{$i} {
+        position: absolute;
+        height: $imgHeight;
+        top: $marginTop + $imgHeight * ($i - 1);
+        left: $marginLeft;
+    }
+    #toprightimg#{$i} {
+        position: absolute;
+        height: $imgHeight;
+        top: $marginTop + $imgHeight * ($i - 1);
+        right: $marginLeft;
+    }
+    #bottomleftimg#{$i} {
+        position: absolute;
+        height: $imgHeight;
+        bottom: $marginTop + $imgHeight * ($i - 1);
+        left: $marginLeft;
+    }
+    #bottomrightimg#{$i} {
+        position: absolute;
+        height: $imgHeight;
+        bottom: $marginTop + $imgHeight * ($i - 1);
+        right: $marginLeft;
+    }
+    #toplefttext#{$i}-container {
+        position: absolute;
+        height: $imgHeight;
+        line-height: $imgHeight;
+        top: $marginTop + $imgHeight * ($i - 1);
+        left: $marginLeft + $imgHeight;
+        overflow: hidden;
+    }
+    #toprighttext#{$i}-container {
+        position: absolute;
+        height: $imgHeight;
+        line-height: $imgHeight;
+        top: $marginTop + $imgHeight * ($i - 1);
+        right: $marginLeft + $imgHeight;
+        overflow: hidden;
+    }
+    #bottomlefttext#{$i}-container {
+        position: absolute;
+        height: $imgHeight;
+        line-height: $imgHeight;
+        bottom: $marginTop + $imgHeight * ($i - 1);
+        left: $marginLeft + $imgHeight;
+        overflow: hidden;
+    }
+    #bottomrighttext#{$i}-container {
+        position: absolute;
+        height: $imgHeight;
+        line-height: $imgHeight;
+        bottom: $marginTop + $imgHeight * ($i - 1);
+        right: $marginLeft + $imgHeight;
+        overflow: hidden;
+    }
+    #toplefttext#{$i},
+    #toprighttext#{$i},
+    #bottomlefttext#{$i},
+    #bottomrighttext#{$i} {
+        display: inline-block;
+        vertical-align: middle;
+        line-height: normal;
+        font-family: "Comic Sans MS", sans-serif;
+        font-size: 26px;
+    }
+}
+#centerimg1 {
+    position: absolute;
+    width: $imgWidth;
+    height: $imgHeight;
+    top: calc(50% - #{$imgHeight} / 2);
+    left: calc(50% - #{$imgWidth} * 2);
+}
+#centertext1-container {
+    position: absolute;
+    height: $imgHeight;
+    line-height: $imgHeight;
+    top: calc(50% - #{$imgHeight} / 2);
+    left: calc(50% - #{$imgWidth});
+    overflow: hidden;
+}
+#centertext1 {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: 36px;
+}
+
+/* fonts */
+@font-face {
+    font-family: 'arial-rounded';
+    src: url('./fonts/arial-rounded/unicode.arialr.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'avenir';
+    src: url('./fonts/avenir/AEH.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'calibri';
+    src: url('./fonts/calibri/Calibri.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'eb_garamond';
+    src: url('./fonts/EB_Garamond/EBGaramond-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futura';
+    src: url('./fonts/futura/futur.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'minion';
+    src: url('./fonts/minion/Minion Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'myriad-web';
+    src: url('./fonts/myriad-web/MyriadWeb.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('./fonts/roboto/Roboto-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pt-sans';
+    src: url('./fonts/PT_Sans/PT_Sans-Web-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'raleway';
+    src: url('./fonts/raleway/Raleway-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}

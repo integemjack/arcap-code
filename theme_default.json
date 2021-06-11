@@ -1,0 +1,22 @@
+{
+    "goodies": {
+        "goodie1": {
+            "name": "life1",
+            "img": "goodie/heart1.gif",
+            "x": 150,
+            "y": 260,
+            "show": "pattern",
+            "scale": 1.5,
+            "initNum": 5
+        },
+        "goodie2": {
+            "name": "life2",
+            "img": "goodie/heart2.gif",
+            "x": 150,
+            "y": 260,
+            "show": "pattern",
+            "scale": 1.5,
+            "initNum": 5
+        }
+    }
+}

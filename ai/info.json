@@ -1,0 +1,82 @@
+{
+	"glass": {
+		"image": "glass.png",
+		"position": ["leftEye", "rightEye"],
+		"offset": {
+			"left": 0,
+			"top": 0,
+			"zoom": 1,
+			"defaultZoom": 1.2
+		}
+	},
+	"hat": {
+		"image": "hat.png",
+		"position": ["leftEye", "rightEye"],
+		"offset": {
+			"left": 0,
+			"top": 0,
+			"zoom": 1,
+			"defaultZoom": 2
+		}
+	},
+	"shoulder": {
+		"image": "hat.png",
+		"position": ["leftShoulder", "rightShoulder"],
+		"offset": {
+			"left": 0,
+			"top": 0,
+			"zoom": 1,
+			"defaultZoom": 1
+		}
+	},
+	"hand": {
+		"image": "hat.png",
+		"position": ["leftEye", "rightEye"],
+		"offset": {
+			"left": 0,
+			"top": 0,
+			"zoom": 1,
+			"defaultZoom": 2
+		}
+	},
+	"belt": {
+		"image": "hat.png",
+		"position": ["leftHip", "rightHip"],
+		"offset": {
+			"left": 0,
+			"top": 0,
+			"zoom": 1,
+			"defaultZoom": 1
+		}
+	},
+	"elbow": {
+		"image": "hat.png",
+		"position": ["leftEye", "rightEye"],
+		"offset": {
+			"left": 0,
+			"top": 0,
+			"zoom": 1,
+			"defaultZoom": 1
+		}
+	},
+	"ear": {
+		"image": "hat.png",
+		"position": ["leftEye", "rightEye"],
+		"offset": {
+			"left": 0,
+			"top": 0,
+			"zoom": 1,
+			"defaultZoom": 1
+		}
+	},
+	"foot": {
+		"image": "hat.png",
+		"position": ["leftEye", "rightEye"],
+		"offset": {
+			"left": 0,
+			"top": 0,
+			"zoom": 1,
+			"defaultZoom": 1
+		}
+	}
+}

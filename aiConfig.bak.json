@@ -1,0 +1,19 @@
+{
+	"poses": {
+		"flipHorizontal": false,
+		"maxDetections": 5,
+		"scoreThreshold": 0.5,
+		"nmsRadius": 20,
+		"decodingMethod": "single-person"
+	},
+	"use": false,
+	"show": 0.5,
+	"debug": false,
+	"main": {
+		"architecture": "MobileNetV1",
+		"outputStride": 16,
+		"inputResolution": 500,
+		"multiplier": 0.75,
+		"quantBytes": 2
+	}
+}

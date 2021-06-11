@@ -1,0 +1,8 @@
+{
+    "esversion": 6,
+    "loopfunc": true,
+    "node": true,
+    "browser" : true,
+    "devel": true,
+    "jquery": true
+}

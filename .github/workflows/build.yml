@@ -1,0 +1,20 @@
+name: Build
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: macos
+
+    steps:
+      - name: init
+        env:
+          sha: ${{github.sha}}
+          content: ${{github.event.head_commit.message}}
+        run: |
+          echo $content
+          git clone https://integemjack:Cc880108@github.com/integemjack/Arcap.desktop.git .
+          echo "$sha" > sha.txt
+          git add sha.txt
+          git commit -m "$content"
+          git push

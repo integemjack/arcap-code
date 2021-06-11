@@ -1,0 +1,7 @@
+node_modules/**
+static/**
+chrome-user-data/**
+libs/**
+qrcodeapp\routes.js
+socketio\qrcodeio.js
+models/**

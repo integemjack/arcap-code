@@ -1,0 +1,37 @@
+{
+    "tabWidth": 2,
+    "useTabs": true,
+    "parser": "babel",
+    "trailingComma": "none",
+    "jsxBracketSameLine": true,
+    "semi": true,
+    "singleQuote": false,
+    "arrowParens": "avoid",
+    "printWidth": 120,
+    "overrides": [{
+            "files": ["*.json", ".eslintrc", ".tslintrc", ".prettierrc", ".tern-project"],
+            "options": {
+                "parser": "json",
+                "tabWidth": 2
+            }
+        },
+        {
+            "files": "*.vue",
+            "options": {
+                "parser": "vue"
+            }
+        },
+        {
+            "files": "*.{css,sass,scss,less}",
+            "options": {
+                "parser": "css"
+            }
+        },
+        {
+            "files": "*.ts",
+            "options": {
+                "parser": "typescript"
+            }
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/
+.vscode/
+node_modules/
+node_modules_1/
+logs/
+build/out/
+Tools/
+chrome-user-data/
+package-lock.json
+yarn.lock
+db.txt
+*.sqlite
+audio/
+!static/audio/
+data/*.sqlite
+test/
+data/saveData/*.csv
+data/emailData/*.csv
+data/userData/*.csv
+.DS_Store
+
+#Prevent errors when uploading files
+./*.csv
+
+data/*
+
+config.json
+aiConfig.json

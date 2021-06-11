@@ -1,0 +1,199 @@
+<SUF70UninstallData>
+<DataFilePath>C:\新建文件夹\新建文件夹 (6)\Uninstall\uninstall.dat</DataFilePath>
+<CPRegKey>SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\YY麦克风混响效果器v3.0.0.0</CPRegKey>
+<EXELocation>C:\windows\YY麦克风混响效果器\uninstall.exe</EXELocation>
+<UninstallFiles>
+<File>
+<Filename>C:\新建文件夹\新建文件夹 (6)\main.dll</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\新建文件夹\新建文件夹 (6)\main.exe</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\新建文件夹\新建文件夹 (6)\Mmutil32.dll</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\新建文件夹\新建文件夹 (6)\REVERB.INI</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+</UninstallFiles>
+<UninstallShortcuts>
+<Filename>C:\Documents and Settings\Administrator\桌面\YY麦克风混响效果器.lnk</Filename>
+<Filename>C:\Documents and Settings\Administrator\「开始」菜单\程序\YY麦克风混响效果器\YY麦克风混响效果器.lnk</Filename>
+<Filename>C:\Documents and Settings\Administrator\「开始」菜单\程序\YY麦克风混响效果器\卸载 YY麦克风混响效果器.lnk</Filename>
+</UninstallShortcuts>
+<UninstallSupportFiles>
+<Filename>C:\新建文件夹\新建文件夹 (6)\Uninstall\IRIMG1.JPG</Filename>
+<Filename>C:\新建文件夹\新建文件夹 (6)\Uninstall\IRIMG2.JPG</Filename>
+<Filename>C:\新建文件夹\新建文件夹 (6)\Uninstall\IRIMG3.JPG</Filename>
+<Filename>C:\新建文件夹\新建文件夹 (6)\Uninstall\IRIMG4.JPG</Filename>
+<Filename>C:\新建文件夹\新建文件夹 (6)\Uninstall\IRIMG5.JPG</Filename>
+<Filename>C:\新建文件夹\新建文件夹 (6)\Uninstall\IRIMG6.JPG</Filename>
+</UninstallSupportFiles>
+<UninstallFolders>
+<FolderPath>C:\新建文件夹\新建文件夹 (6)\Uninstall</FolderPath>
+<FolderPath>C:\windows\YY麦克风混响效果器</FolderPath>
+<FolderPath>C:\Documents and Settings\Administrator\「开始」菜单\程序\YY麦克风混响效果器</FolderPath>
+</UninstallFolders>
+<SessionVars>
+<Var>
+<Name>%ProductName%</Name>
+<Value>YY麦克风混响效果器</Value>
+</Var>
+<Var>
+<Name>%CompanyName%</Name>
+<Value>YY麦克风混响效果器</Value>
+</Var>
+<Var>
+<Name>%ProductVer%</Name>
+<Value>v3.0.0.0</Value>
+</Var>
+<Var>
+<Name>%Copyright%</Name>
+<Value>版权 (C)2005 %CompanyName%</Value>
+</Var>
+<Var>
+<Name>%CompanyURL%</Name>
+<Value>http://www.yourcompany.com</Value>
+</Var>
+<Var>
+<Name>%WindowTitle%</Name>
+<Value>%ProductName% 安装</Value>
+</Var>
+<Var>
+<Name>%AppFolder%</Name>
+<Value>C:\新建文件夹\新建文件夹 (6)</Value>
+</Var>
+<Var>
+<Name>%AppShortcutFolderName%</Name>
+<Value>%ProductName%</Value>
+</Var>
+<Var>
+<Name>%ApplicationDataFolder%</Name>
+<Value>C:\Documents and Settings\Administrator\Application Data</Value>
+</Var>
+<Var>
+<Name>%CommonFilesFolder%</Name>
+<Value>C:\Program Files\Common Files</Value>
+</Var>
+<Var>
+<Name>%DesktopFolder%</Name>
+<Value>C:\Documents and Settings\Administrator\桌面</Value>
+</Var>
+<Var>
+<Name>%DesktopFolderCommon%</Name>
+<Value>C:\Documents and Settings\All Users\桌面</Value>
+</Var>
+<Var>
+<Name>%FontsFolder%</Name>
+<Value>C:\WINDOWS\Fonts</Value>
+</Var>
+<Var>
+<Name>%MyDocumentsFolder%</Name>
+<Value>C:\Documents and Settings\Administrator\My Documents</Value>
+</Var>
+<Var>
+<Name>%ProgramFilesFolder%</Name>
+<Value>C:\Program Files</Value>
+</Var>
+<Var>
+<Name>%StartFolder%</Name>
+<Value>C:\Documents and Settings\Administrator\「开始」菜单</Value>
+</Var>
+<Var>
+<Name>%StartFolderCommon%</Name>
+<Value>C:\Documents and Settings\All Users\「开始」菜单</Value>
+</Var>
+<Var>
+<Name>%StartProgramsFolder%</Name>
+<Value>C:\Documents and Settings\Administrator\「开始」菜单\程序</Value>
+</Var>
+<Var>
+<Name>%StartProgramsFolderCommon%</Name>
+<Value>C:\Documents and Settings\All Users\「开始」菜单\程序</Value>
+</Var>
+<Var>
+<Name>%StartupFolder%</Name>
+<Value>C:\Documents and Settings\Administrator\「开始」菜单\程序\启动</Value>
+</Var>
+<Var>
+<Name>%StartupFolderCommon%</Name>
+<Value>C:\Documents and Settings\All Users\「开始」菜单\程序\启动</Value>
+</Var>
+<Var>
+<Name>%SystemFolder%</Name>
+<Value>C:\windows\system32</Value>
+</Var>
+<Var>
+<Name>%WindowsFolder%</Name>
+<Value>C:\windows</Value>
+</Var>
+<Var>
+<Name>%SystemDrive%</Name>
+<Value>C:</Value>
+</Var>
+<Var>
+<Name>%TempFolder%</Name>
+<Value>C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp</Value>
+</Var>
+<Var>
+<Name>%TempLaunchFolder%</Name>
+<Value>C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\_ir_sf7_temp_0</Value>
+</Var>
+<Var>
+<Name>%RegOwner%</Name>
+<Value>微软用户</Value>
+</Var>
+<Var>
+<Name>%RegOrganization%</Name>
+<Value>微软中国</Value>
+</Var>
+<Var>
+<Name>%AppDrive%</Name>
+<Value>C:</Value>
+</Var>
+<Var>
+<Name>%DAOPath%</Name>
+<Value>%CommonFiles%\Microsoft Shared\DAO</Value>
+</Var>
+<Var>
+<Name>%SourceFilename%</Name>
+<Value>D:\软件\YY麦克风混响效果器 v3.0.0.0\YY麦克风混响效果器.exe</Value>
+</Var>
+<Var>
+<Name>%SourceFolder%</Name>
+<Value>D:\软件\YY麦克风混响效果器 v3.0.0.0</Value>
+</Var>
+<Var>
+<Name>%SourceDrive%</Name>
+<Value>D:</Value>
+</Var>
+<Var>
+<Name>%SpaceAvailable%</Name>
+<Value>4.64 GB</Value>
+</Var>
+<Var>
+<Name>%SpaceRequired%</Name>
+<Value>995 KB</Value>
+</Var>
+</SessionVars>
+</SUF70UninstallData>

@@ -1,0 +1,68 @@
+{
+	"debug": false,
+	"remote": false,
+	"storage": "C:\\Integem\\data",
+	"password": 123456,
+	"ARbackendTimeout": 30,
+	"speech": "google",
+	"device": {
+		"audioDeviceId": "",
+		"videoDeviceId": ""
+	},
+	"online": {
+		"photo": false,
+		"video": false
+	},
+	"token": {
+		"email": false,
+		"prefix": "A",
+		"digit": 5
+	},
+	"capture": {
+		"codecs": "h264",
+		"videoBitrate": 8000000,
+		"audioBitrate": 128000,
+		"frameRate": "30",
+		"size": "1920*1080"
+	},
+	"email": {
+		"photo": {
+			"upload": true,
+			"email": true
+		},
+		"video": {
+			"mode": "vimeo",
+			"upload": true,
+			"music": "C:\\Integem\\instruction\\music\\santa.mp3",
+			"ffmpeg": true,
+			"size": "1920*1080",
+			"email": true,
+			"voiceMode": "Original voice only"
+		},
+		"email": {
+			"restart": 3,
+			"delay": 2.718,
+			"service": "smtp.163.com",
+			"username": "15910787956@163.com",
+			"password": "lx123456",
+			"port": 465,
+			"secureConnection": true,
+			"replyTo": "jane.lean@integem.com"
+		},
+		"vimeo": {
+			"appid": "9e74af6cf1ff0bfc7bc681e956ddf1488d158e2c",
+			"appsecret": "329t8ug6mmSmMWUkYdaztNwms5kNIKMQizzSW8D6b9DysqRwx+1LFzMW03L1IwQmNy+ecKnrZ+Ga/wvFvnFcB+mQAe4DSpSGnV0B1kRihux1FadkH83Swq+HC6h/l/bO",
+			"token": "265495880433726f258a4eb88fe0f432"
+		},
+		"youku": {
+			"client_id": "0d528cd5f5c9cece",
+			"client_secret": "96282f119b4c0fb1393845e0b79b5661",
+			"access_token": "4befce0c579416778f8936bf7c3376f1",
+			"refresh_token": "8e02c4ca795ebc956032024d8f0ece68"
+		}
+	},
+	"theme": "C:\\Integem\\stage",
+	"organization": "Integem",
+	"_event": "demo",
+	"creatorApi": "https://player.integem.com/api.php"
+}
